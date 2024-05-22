@@ -1,8 +1,72 @@
 body {padding-top: 25px; padding-right: 7vw; padding-bottom: 25px; padding-left: 7vw; 
-    background-color: rgb(235,235,255); color: rgb(9,5,6); font-size: 24px}
+    background-color: #9B9FD6; color: rgb(9,5,6); font-size: 16px; font-family: Open Sans}
+
 table.center-table {margin-left: auto; margin-right: auto} 
+
 .center-text {text-align: center}  
+
 ul.center-ul {
-    display: inline-block;
     text-align: left;
   }
+
+.light-background {
+    padding: 10px;
+    background-color: #CDE1F1;
+    border-radius: 10%;
+    margin: 10px;
+}
+
+@media (min-width: 700px) { 
+    #info {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    }
+}
+
+@media (max-width: 700px) { 
+    #info {
+    display: grid;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    }
+}
+
+@media (max-width: 800px) {
+    #intro {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    min-width: 275px;
+    max-width: 340px;
+    border-radius:5%;
+    }
+}
+
+
+@media (min-width: 800px) and (max-width: 1200px) {
+    #intro {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+        gap: 10px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px;
+        }
+}
+
+@media (min-width: 1200px) {
+    #intro {
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    }
+}
