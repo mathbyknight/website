@@ -1,5 +1,5 @@
 body {padding-top: 25px; padding-right: 7vw; padding-bottom: 25px; padding-left: 7vw; 
-    background-color: #A5AEDB; color: rgb(9,5,6); font-size: 16px; font-family: Open Sans}
+    background-color: #8E8FFA; color: rgb(9,5,6); font-size: 16px; font-family: Open Sans}
 
 table.center-table {margin-left: auto; margin-right: auto} 
 
@@ -9,11 +9,21 @@ ul.center-ul {
     text-align: left;
   }
 
+  
+
 .light-background {
     padding: 10px;
-    background-color: #CDE1F1;
+    background-color: #C2D9FF;
     border-radius: 10%;
     margin: 10px;
+}
+
+.manjari {
+    font-family: 'Manjari', cursive;
+    color: rgb(9,5,6);
+}
+.shadowed {
+    text-shadow: 0 0 5px #C2D9FF;
 }
 
 @media (min-width: 700px) { 
@@ -44,6 +54,9 @@ ul.center-ul {
     min-width: 275px;
     max-width: 340px;
     border-radius:5%;
+    }
+    hr {
+    min-width: 275px;
     }
 }
 
