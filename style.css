@@ -1,5 +1,5 @@
 body {padding-top: 25px; padding-right: 7vw; padding-bottom: 25px; padding-left: 7vw; 
-    background-color: rgba(142,143,250,0.8); color: rgb(9,5,6); font-size: 16px; font-family: Open Sans}
+    background-color: #cfcbd0; color: #2B1D2C; font-size: 16px; font-family: Open Sans}
 
 table.center-table {margin-left: auto; margin-right: auto} 
 
@@ -8,22 +8,24 @@ table.center-table {margin-left: auto; margin-right: auto}
 ul.center-ul {
     text-align: left;
   }
-
-  
+ 
 
 .light-background {
     padding: 10px;
-    background-color: #C2D9FF;
+    background-color: rgb(177, 179, 251);
     border-radius: 10%;
     margin: 10px;
 }
 
 .manjari {
     font-family: 'Manjari', cursive;
-    color: rgb(9,5,6);
 }
 .shadowed {
-    text-shadow: 0 0 5px #C2D9FF;
+    text-shadow: 0 0 5px rgb(177, 179, 251);
+}
+
+.emph {
+    font-weight: bold;
 }
 
 @media (min-width: 700px) { 
@@ -61,7 +63,7 @@ ul.center-ul {
 }
 
 
-@media (min-width: 800px) and (max-width: 1200px) {
+@media (min-width: 800px) {
     #intro {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -71,15 +73,7 @@ ul.center-ul {
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
+        max-width: 700px;
         }
 }
 
-@media (min-width: 1200px) {
-    #intro {
-    display: flex;
-    justify-content: center;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    }
-}
