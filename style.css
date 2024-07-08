@@ -1,5 +1,5 @@
 body {padding-top: 25px; padding-right: 7vw; padding-bottom: 25px; padding-left: 7vw; 
-    background-color: rgb(250,247,255); color: rgb(92,54,185); font-size: 16px; font-family: Open Sans}
+    background-color: rgb(216,200,255); color: rgb(68,41,136); font-size: 16px; font-family: Open Sans}
 
 table.center-table {margin-left: auto; margin-right: auto} 
 
@@ -12,7 +12,7 @@ ul.center-ul {
 
 .light-background {
     padding: 10px;
-    background-color: rgb(255,254,235);
+    background-color: rgb(255,223,229);
     border-radius: 10%;
     margin: 10px;
 }
@@ -21,7 +21,7 @@ ul.center-ul {
     font-family: 'Manjari', cursive;
 }
 .shadowed {
-    text-shadow: 0 0 5px rgb(255,250,191);
+    text-shadow: 0 0 5px rgb(255,236,134);
 }
 
 .emph {
