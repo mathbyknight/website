@@ -15,6 +15,7 @@ ul.center-ul {
     background-color: rgb(255,253,229);
     border-radius: 10%;
     margin: 10px;
+    width: 300px;
 }
 
 .manjari {
@@ -57,9 +58,6 @@ ul.center-ul {
     max-width: 340px;
     border-radius:5%;
     }
-    hr {
-    min-width: 275px;
-    }
 }
 
 
@@ -73,7 +71,6 @@ ul.center-ul {
         margin-left: auto;
         margin-right: auto;
         padding: 10px;
-        max-width: 700px;
         }
 }
 
