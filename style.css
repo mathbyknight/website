@@ -1,34 +1,54 @@
 body {padding-top: 25px; padding-right: 7vw; padding-bottom: 25px; padding-left: 7vw; 
-    background-color: rgb(216,200,255); color: rgb(68,41,136); font-size: 16px; font-family: Open Sans}
+    background-color: rgb(252,251,255); color: rgb(7,4,15); font-size: 16px; font-family: Open Sans}
 
-table.center-table {margin-left: auto; margin-right: auto} 
+h1, h2 {
+    font-family: 'Itim', cursive;
+    color: rgb(77,44,157);
+}
 
-.center-text {text-align: center}  
+h3 {
+    font-family: 'Itim', cursive;
+    color: rgb(77,44,157);
+}
 
-ul.center-ul {
-    text-align: left;
-  }
- 
+.logo {
+    width: 70%;
+    margin-left:15%;
+    margin-right:15%;
+}
 
-.light-background {
-    padding: 10px;
-    background-color: rgb(255,253,229);
-    border-radius: 10%;
+.sub {
+    font-family: 'Itim', cursive;
+    color: rgb(77,44,157);
+    text-align: center;
+    font-size: 22px;
+    padding-right: 25%;
+    padding-left: 25%;
+    margin-bottom: -60px;
+}
+
+.btn-color {
+    background-color: rgb(251,238,56);
+    border-radius: 20%;
     margin: 10px;
-    width: 300px;
 }
 
-.manjari {
-    font-family: 'Manjari', cursive;
+a {
+    color: rgb(77,44,157);
 }
+
 .shadowed {
-    text-shadow: 0 0 5px rgb(255,236,134);
+    text-shadow: 0 0 1.6px rgb(251,238,56);
 }
 
 .emph {
     font-weight: bold;
 }
 
-@media (min-width: 700px) { 
+@media (max-width:460px) {
+    .sub {
+        margin-bottom: -30px;
+    }
 }
+
 

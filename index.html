@@ -4,54 +4,102 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Hannah's Website</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
         <link
             rel="stylesheet"
             href="./style.css"
         />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Manjari:wght@400;700&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Itim&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     </head>
 
     <body>
-       <table class="center-table shadowed manjari">
-            <tr>
-                <td style="width:fit-content; margin-right:0"><img src="./assets/images/website_photo_circle.png" style="width: min(42vw, 250px)" /></td>
-                <td style="width:fit-content; padding: 15px; margin-left:0; text-align:center"> 
-                    <h1 style="font-size: min(50px,7vw); margin-bottom:0">Hannah Knight </h1>
-                     <p style="margin-top:0; font-size: min(25px, 4vw)">Mathematician and Game Design Architect</p>
-                </td>
-            </tr>
-        </table>
+        <img class="logo" src="./assets/images/myLogoFinal.png"/>
+        <div class="sub shadowed"> Mathematician, Harpist, Game Designer, and Programmer </div>
 
-        <h2 class="manjari" style="font-size: min(30px, 7vw); margin-bottom:0">Hi, I am Hannah! </h2>
 
-    
-        <div id="intro">
-            <p class="light-background">I am an <span class="emph">Assistant Adjunct Professor</span> in mathematics at UCLA. </p>
-            <p class="light-background">I am the <span class="emph">Game Design Architect</span> for 
-                <a href = "https://www.silenthgames.com/"> Silent H Games,</a></p>
-            <p class="light-background">I am also an aspiring programmerand have been learning Python, HTML, CSS, PHP, and JavaScript as well as graphic design.</p>
-            </p>
-        </div>
+        <div class="container px-4 py-5" id="hanging-icons">
+            <h2 class="pb-2 border-bottom"><img src="./assets/images/me.png" style="width: 4em" /> Hi, I'm Hannah! <button type="button" class="btn btn-lg btn-color">
+                <a href="./public/cv.html">My CV</a>
+             </button></h2>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="./assets/images/research.png" style="width: 2em" />
+                </div>
+                <div>
+                  <h3 class="fs-2">Math Researcher</h3>
+                  <p>I am an Assistant Adjunct Professor in mathematics at UCLA working 
+                    on calculating the essential p-dimension of finite simple groups under 
+                    the mentorship of Alexander Merkurjev.</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <svg class="bi" width="2em" height="2em"xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:serif="http://www.serif.com/" width="100%" height="100%" viewBox="0 0 122 180" version="1.1" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                        <g transform="matrix(1.27618,0,0,1.27618,-823.678,-791.389)">
+                            <path d="M733.293,661.505C733.519,660.439 734.57,659.756 735.637,659.983C736.704,660.21 737.386,661.26 737.159,662.327C735.54,669.948 727.83,680.043 717.479,690.561C694.128,714.289 657.441,740.625 652.475,746.212C651.75,747.028 650.5,747.101 649.685,746.376C648.87,745.652 648.796,744.402 649.521,743.586C654.498,737.986 691.257,711.572 714.662,687.788C724.351,677.943 731.777,668.639 733.293,661.505Z"/>
+                            <path d="M680.244,626.956C680.051,627.796 679.234,631.425 678.582,635.419C674.646,659.518 666.514,722.374 658.079,739.243C657.737,739.928 657.849,739.948 654.141,754.78C653.877,755.838 652.803,756.482 651.745,756.218C650.687,755.953 650.042,754.879 650.307,753.821C654.213,738.196 654.183,738.197 654.544,737.476C663.939,718.685 672.799,642.237 675.968,627.666C676.355,625.89 676.808,624.826 677.065,624.506L677.493,624.094L678.039,623.808L678.701,623.693L679.405,623.813C680.432,624.181 680.967,625.313 680.6,626.34C680.517,626.572 680.395,626.779 680.244,626.956ZM678.602,627.646C678.426,627.634 678.248,627.597 678.073,627.535C678.247,627.597 678.424,627.635 678.602,627.646Z"/>
+                            <path d="M670.59,644.295C670.095,644.513 669.513,644.528 668.982,644.289L668.369,643.857L667.942,643.181L667.823,642.31L667.911,641.875L668.119,641.429L668.401,641.077L668.776,640.785L669.842,640.41C671.858,639.951 679.201,638.978 686.026,643.385C690.467,646.252 694.753,651.405 697.059,660.628C698.118,664.863 701.534,667.839 706.222,669.035C713.939,671.004 724.875,668.275 735.52,658.813C736.336,658.088 737.586,658.162 738.311,658.977C739.035,659.792 738.962,661.042 738.147,661.767C726.234,672.356 713.88,675.068 705.244,672.865C699.03,671.279 694.628,667.2 693.225,661.587C691.245,653.67 687.694,649.167 683.882,646.706C678.329,643.12 672.358,643.891 670.717,644.264C670.676,644.273 670.629,644.285 670.59,644.295ZM671.613,643.26C671.825,642.788 671.812,642.348 671.698,641.957C671.814,642.374 671.795,642.832 671.613,643.26ZM671.584,641.65C671.425,641.298 671.146,640.928 670.606,640.685C671.054,640.887 671.391,641.236 671.584,641.65Z"/>
+                            <path d="M649.696,750.534C649.882,751.507 649.969,752.668 649.645,753.962C649.381,755.02 648.307,755.665 647.249,755.4C646.19,755.136 645.546,754.062 645.811,753.003C646.057,752.018 645.801,751.176 645.65,750.559C645.518,750.018 645.432,749.559 645.426,749.203L645.502,748.498L645.719,747.922L646.05,747.446L646.487,747.063L647.044,746.779L647.788,746.613C648.163,746.577 648.685,746.595 649.394,746.721C650.467,746.912 651.184,747.939 650.993,749.013C650.864,749.742 650.349,750.307 649.696,750.534Z"/>
+                            <path d="M673.839,750.436C673.85,750.441 673.861,750.446 673.873,750.451C674.869,750.894 675.319,752.063 674.876,753.059C672.612,758.154 667.897,760.419 662.903,760.854C658.165,761.266 653.219,759.994 650.217,758.198C647.788,756.744 646.599,754.805 646.692,753.139C646.743,752.228 647.112,751.304 647.965,750.45C650.993,747.423 658.34,745.217 664.557,745.797C668.523,746.167 671.973,747.672 673.839,750.436ZM670.595,752.689C669.376,750.786 666.895,749.985 664.189,749.733C659.181,749.265 653.199,750.807 650.76,753.245C650.726,753.28 650.684,753.334 650.657,753.371C650.706,753.456 650.841,753.685 650.967,753.822C651.288,754.169 651.727,754.495 652.247,754.806C654.685,756.265 658.712,757.25 662.56,756.916C665.718,756.641 668.792,755.46 670.595,752.689Z"/>
+                            <g transform="matrix(1,0,0,1,-3.48131,-1.29225)">
+                                <path d="M672.742,750.237C672.955,750.017 675.713,747.173 678.886,743.696C693.849,727.299 730.131,686.123 736.344,675.25C740.46,668.046 740.646,663.323 738.603,660.51C737.211,658.595 734.846,657.748 732.512,657.661C730.156,657.573 727.777,658.244 726.378,659.644C722.653,663.368 719.411,665.765 716.602,667.047C713.354,668.53 710.579,668.606 708.192,667.648C705.472,666.556 703.178,664.013 701.335,660.159C698.9,655.068 697.147,647.556 695.645,638.543C693.859,627.829 682.04,625.417 676.164,625.371C675.531,625.366 674.875,625.423 674.386,625.481C673.82,626.373 672.642,626.665 671.722,626.129L671.021,625.557L670.566,624.736L670.478,624.253L670.505,623.745L670.838,622.91L671.234,622.456L671.766,622.09C672.129,621.897 672.731,621.695 673.544,621.575C676.211,621.18 682.022,621.451 687.468,623.686C693.088,625.992 698.284,630.333 699.544,637.893C700.972,646.461 702.587,653.614 704.901,658.454C706.225,661.222 707.71,663.195 709.664,663.979C711.171,664.584 712.91,664.387 714.96,663.451C717.448,662.316 720.284,660.147 723.583,656.849C725.667,654.764 729.15,653.58 732.659,653.711C736.192,653.842 739.694,655.288 741.801,658.187C744.422,661.796 745.057,667.968 739.776,677.211C733.503,688.189 696.914,729.804 681.806,746.36C678.759,749.699 676.577,752.027 675.683,752.897L674.771,753.616C673.796,754.103 672.607,753.707 672.12,752.732C671.678,751.849 671.961,750.791 672.742,750.237Z"/>
+                            </g>
+                            <path d="M669.341,625.978C669.272,625.694 669.265,625.391 669.332,625.087C669.512,624.272 669.682,623.779 669.739,623.668L670.064,623.201L670.575,622.806L671.366,622.575L671.882,622.604L672.37,622.764L672.879,623.115L673.248,623.593L673.475,624.263L673.491,624.853C673.377,626.471 671.276,640.045 665.214,680.204C662.728,696.68 664.311,701.816 650.847,746.693C650.534,747.738 649.431,748.332 648.386,748.019C647.341,747.705 646.748,746.602 647.061,745.558C660.414,701.049 658.839,695.954 661.306,679.614C666.293,646.577 668.669,630.534 669.341,625.978Z"/>
+                            <path d="M689.748,677.581C689.497,677.096 689.52,676.492 689.859,676.018C690.341,675.344 691.278,675.189 691.952,675.67L692.322,676.04L692.54,676.44C692.655,676.728 692.78,677.389 692.805,678.353C692.897,681.99 691.968,691.245 688.309,698.565C687.938,699.305 687.037,699.606 686.296,699.235C685.556,698.865 685.256,697.964 685.626,697.223C689.42,689.634 690.078,679.799 689.748,677.581Z"/>
+                            <path d="M681.032,687.166C680.329,686.729 680.113,685.804 680.55,685.101C680.988,684.398 681.913,684.182 682.616,684.619C684.322,685.68 686.883,685.421 689.404,684.849C693.659,683.885 697.826,681.795 698.559,681.429C699.299,681.059 700.201,681.36 700.571,682.1C700.941,682.84 700.64,683.742 699.9,684.112C699.114,684.505 694.636,686.739 690.067,687.775C686.706,688.537 683.307,688.58 681.032,687.166Z"/>
+                        </g>
+                    </svg>
+                </div>
+                <div>
+                  <h3 class="fs-2">Harpist</h3>
+                  <p>I am a harpist, and I earned a Bachelor of Music in Harp Performance at the University of Arizona.
+                </p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="./assets/images/shgLogo.png" style="width: 2em" />
+                </div>
+                <div>
+                  <h3 class="fs-2">Game Designer</h3>
+                  <p>I am the Game Design Architect for 
+                    <a href = "https://www.silenthgames.com/"> Silent H Games,</a> 
+                    a game company that I co-founded with the talented artist, Kara Thibault.</p>
+                </div>
+              </div>
+              <div class="col d-flex align-items-start">
+                <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+                    <img src="./assets/images/atComputer.png" style="width: 2em" />
+                </div>
+                <div>
+                  <h3 class="fs-2">Aspiring Programmer</h3>
+                  <p>I have been exploring the world of programming and web develpment and have been learning Python, HTML, CSS, PHP, and JavaScript as well as graphic design.</p>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        <h2 class="manjari" style="min-width: 275px"> My projects: </h2>
+        
+        
+        
+
+        
+        <h2> My projects: </h2>
             <div class="light-background" style="margin-bottom: 40px">
                 <li><a href="https://silenthgames.bigcartel.com/product/don-t-spill-my-tea">Don't Spill My Tea</a></li>
                 <br>
                 <li><a href="./public/teapot_game_project.html">Don't Spill My Tea digitized</a></li>
             </div>
-        
-        <div id="info">
-        
-        <p class="light-background" style="min-width: 160px"> <span style="font-weight: bold">CV:</span> Here is my <a href="./public/cv.html">CV</a>, 
-            last updated 9/12/23.</p>
-            
-        <p class="light-background"style="min-width: 250px"> <span style="font-weight: bold">Contact Info:</span> mathbyknight[at]gmail[dot]com</p>
 
-         </div>
 
+        <hr>
+            <p style="margin: 10px; min-width: 250px"> <span style="font-weight: bold">Contact Info:</span> mathbyknight[at]gmail[dot]com</p>
+    
+
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> -->
     </body>
 
 
